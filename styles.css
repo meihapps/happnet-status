@@ -190,3 +190,6 @@ html, body { margin: 0; padding: 0; }
 @media (prefers-reduced-motion: reduce) {
   .pfp, .rise, .caret { animation: none; }
 }
+
+.is-refresh .rise { animation: none; opacity: 1; transform: none; }
+.is-refresh .pfp  { animation: wobble 4.2s ease-in-out infinite; }

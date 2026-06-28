@@ -124,6 +124,7 @@ function e(string $s): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>happnet — status</title>
 <link rel="stylesheet" href="styles.css">
+<script>if (sessionStorage.getItem('isRefresh')) { sessionStorage.removeItem('isRefresh'); document.documentElement.classList.add('is-refresh'); }</script>
 </head>
 <body>
   <div class="page">
@@ -229,7 +230,7 @@ function e(string $s): string
     var TTL = <?= CACHE_TTL ?>;
     var elapsed = (Date.now() - ts) / 1000;
     var remaining = Math.max(1, TTL - elapsed);
-    setTimeout(function () { location.reload(); }, remaining * 1000);
+    setTimeout(function () { sessionStorage.setItem('isRefresh', '1'); location.reload(); }, remaining * 1000);
   }());
   </script>
 </body>
