@@ -225,6 +225,11 @@ function e(string $s): string
     function tick() { el.textContent = fmt(); }
     tick();
     setInterval(tick, 30000);
+
+    var TTL = <?= CACHE_TTL ?>;
+    var elapsed = (Date.now() - ts) / 1000;
+    var remaining = Math.max(1, TTL - elapsed);
+    setTimeout(function () { location.reload(); }, remaining * 1000);
   }());
   </script>
 </body>
