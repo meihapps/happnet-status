@@ -2,25 +2,23 @@
 declare(strict_types=1);
 
 const CACHE_FILE = __DIR__ . '/.status-cache.json';
-const CACHE_TTL  = 300;
+const CACHE_TTL  = 15;
 const TIMEOUT    = 6;
 const COLS       = 80;
 
 $devices = [
     'happuter' => [
-        'ai'                => 'https://ai.meihapps.gay',
         'jellyfin'          => 'https://jellyfin.meihapps.gay',
-        'jina-reader'       => 'https://jina-reader.meihapps.gay',
-        'lidarr'            => 'https://lidarr.meihapps.gay',
-        'open-computer-use' => 'https://open-computer-use.meihapps.gay',
+        'openwebui'         => 'https://openwebui.meihapps.gay',
+        'slskd'             => 'https://slskd.meihapps.gay',
         'prowlarr'          => 'https://prowlarr.meihapps.gay',
         'qbittorrent'       => 'https://qbittorrent.meihapps.gay',
-        'slskd'             => 'https://slskd.meihapps.gay',
+        'lidarr'            => 'https://lidarr.meihapps.gay',
     ],
     'happvps' => [
-        'plausible'   => 'https://plausible.meihapps.gay',
-        'vaultwarden' => 'https://vaultwarden.meihapps.gay',
-        'website'     => 'https://website.meihapps.gay',
+        'website'     => 'https://meihapps.gay',
+        'vaultwarden' => 'https://passwords.meihapps.gay',
+        'plausible'   => 'https://analytics.meihapps.gay',
     ],
 ];
 
