@@ -71,7 +71,7 @@ if ($cache === null) {
     foreach ($handles as $name => $ch) {
         $code            = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $err             = curl_error($ch);
-        $results[$name]  = ($err === '' && $code >= 200 && $code < 400);
+        $results[$name]  = ($err === '' && $code >= 200 && $code < 500);
         curl_multi_remove_handle($mh, $ch);
         curl_close($ch);
     }
