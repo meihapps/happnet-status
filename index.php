@@ -132,7 +132,7 @@ function e(string $s): string
     <div class="wrap">
 
       <header class="header rise delay-1">
-        <img class="pfp" src="pfp.png" alt="mei happs avatar" width="50" height="50">
+        <img class="pfp" src="assets/pfp.png" alt="mei happs avatar" width="50" height="50">
         <div>
           <h1 class="title">happnet</h1>
         </div>
