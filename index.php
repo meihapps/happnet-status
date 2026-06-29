@@ -7,18 +7,20 @@ const TIMEOUT    = 6;
 const COLS       = 80;
 
 $devices = [
+    'happi' => [
+        'jellyfin'  => 'https://jellyfin.meihapps.gay',
+        'lidarr'    => 'https://lidarr.meihapps.gay',
+        'prowlarr'  => 'https://prowlarr.meihapps.gay',
+        'slskd'     => 'https://slskd.meihapps.gay',
+    ],
     'happuter' => [
-        'jellyfin'          => 'https://jellyfin.meihapps.gay',
-        'openwebui'         => 'https://openwebui.meihapps.gay',
-        'slskd'             => 'https://slskd.meihapps.gay',
-        'prowlarr'          => 'https://prowlarr.meihapps.gay',
-        'qbittorrent'       => 'https://qbittorrent.meihapps.gay',
-        'lidarr'            => 'https://lidarr.meihapps.gay',
+        'openwebui'   => 'https://openwebui.meihapps.gay',
+        'qbittorrent' => 'https://qbittorrent.meihapps.gay',
     ],
     'happvps' => [
-        'website'     => 'https://meihapps.gay',
-        'vaultwarden' => 'https://passwords.meihapps.gay',
         'plausible'   => 'https://analytics.meihapps.gay',
+        'vaultwarden' => 'https://passwords.meihapps.gay',
+        'website'     => 'https://meihapps.gay',
     ],
 ];
 
