@@ -8,14 +8,14 @@ const COLS       = 80;
 
 $devices = [
     'happi' => [
-        'jellyfin'  => 'https://jellyfin.meihapps.gay',
-        'lidarr'    => 'https://lidarr.meihapps.gay',
-        'prowlarr'  => 'https://prowlarr.meihapps.gay',
-        'slskd'     => 'https://slskd.meihapps.gay',
+        'jellyfin'    => 'https://jellyfin.meihapps.gay',
+        'lidarr'      => 'https://lidarr.meihapps.gay',
+        'prowlarr'    => 'https://prowlarr.meihapps.gay',
+        'qbittorrent' => 'https://qbittorrent.meihapps.gay',
+        'slskd'       => 'https://slskd.meihapps.gay',
     ],
     'happuter' => [
-        'openwebui'   => 'https://openwebui.meihapps.gay',
-        'qbittorrent' => 'https://qbittorrent.meihapps.gay',
+        'openwebui' => 'https://openwebui.meihapps.gay',
     ],
     'happvps' => [
         'flaresolverr' => 'https://flaresolverr.meihapps.gay',
