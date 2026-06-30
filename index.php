@@ -18,9 +18,10 @@ $devices = [
         'qbittorrent' => 'https://qbittorrent.meihapps.gay',
     ],
     'happvps' => [
-        'plausible'   => 'https://analytics.meihapps.gay',
-        'vaultwarden' => 'https://passwords.meihapps.gay',
-        'website'     => 'https://meihapps.gay',
+        'flaresolverr' => 'https://flaresolverr.meihapps.gay',
+        'plausible'    => 'https://analytics.meihapps.gay',
+        'vaultwarden'  => 'https://passwords.meihapps.gay',
+        'website'      => 'https://meihapps.gay',
     ],
 ];
 
