@@ -14,9 +14,6 @@ $devices = [
         'qbittorrent' => 'https://qbittorrent.meihapps.gay',
         'slskd'       => 'https://slskd.meihapps.gay',
     ],
-    'happuter' => [
-        'openwebui' => 'https://openwebui.meihapps.gay',
-    ],
     'happvps' => [
         'flaresolverr' => 'https://flaresolverr.meihapps.gay',
         'plausible'    => 'https://analytics.meihapps.gay',
