@@ -15,6 +15,7 @@ $devices = [
         'slskd'       => 'https://slskd.meihapps.gay',
     ],
     'happvps' => [
+        'matrix'       => 'https://matrix.meihapps.gay',
         'flaresolverr' => 'https://flaresolverr.meihapps.gay',
         'plausible'    => 'https://analytics.meihapps.gay',
         'vaultwarden'  => 'https://passwords.meihapps.gay',
